@@ -1,5 +1,6 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, } from "react-native";
+import { StyleSheet } from "react-native";
 
 export default function Forecast(props) {
     return (
@@ -8,8 +9,7 @@ export default function Forecast(props) {
         <Text style={styles.Text}>{props.main}</Text>
         <Text style={styles.Text1}>{props.description}</Text>
         <Text style={styles.Text1}>{props.temp}</Text>
-        <Text style={styles.Text}>°C</Text>
-        <Text></Text>
+        <Text style={styles.Text}>°C</Text>  
     </View>
     );
    }
@@ -24,12 +24,14 @@ export default function Forecast(props) {
         alignSelf: 'stretch'
     },
     Text: {
-        fontWeight: "400",
+        fontWeight: "500",
         fontSize: 30,
-        color: 'white'
+        color: 'white',
+        
     },
     Text1: {
         fontSize: 30,
-        color: 'white'
+        color: 'white',
+      
     }
 });

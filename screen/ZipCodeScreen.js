@@ -46,12 +46,21 @@ const availableZipItems = [
             flex: 1,
             flexDirection: 'row',
             alignItems: 'center',
-            justifyContent: 'space-around', 
+            justifyContent: 'space-between', 
+            paddingRight: 50,
+            paddingLeft: 50,
+            paddingTop: 20,
+            paddingBottom: 20
         },
         zipPlace: {
             flex: 1,
         },
         zipcode: {
             flex: 1,
+        },
+        Text: {
+            fontSize: 19,
+            color: 'white',
+            fontWeight: "300"
         }
        })

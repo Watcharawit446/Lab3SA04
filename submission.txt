@@ -1,15 +1,20 @@
 งานท้ายการทดลอง    6310110446  นายวัชรวิทย์ แซ่จุ้ง  Section 03
 
-1.ตกแต่งหน้าจอ Weather 
+1).ตกแต่งหน้าจอ Weather 
     - ใน Weather.js ทำการเพิ่ม TextZipcode เพื่อใช้จัด layout โดยเพิ่มสีพื้นหลังจากคำสั่ง backgroundColor
 
-2.ตกแต่งหน้าจอ ZipCodeScreen 
+2).ตกแต่งหน้าจอ ZipCodeScreen 
     - ใน ZipCodeScreen.js เพิ่มสีพื้นหลังตรงส่วนของ Zipcode
 
-3.ตกแต่งหน้าจอ ZipCodeScreen 
+3).ตกแต่งหน้าจอ ZipCodeScreen 
     - ใส่ style ให้กับ text โดยเพิ่มขนาดตัวอักษร 
     - เปลี่ยนสีตัวอักษร
 
-4.ตกแต่งหน้าจอ ZipCodeScreen 
+4).ตกแต่งหน้าจอ ZipCodeScreen 
     - เพิ่ม ImageBackground ที่ใช้ภาพเดียวกับหน้าจอ Weather
-    - ใส่ขนาดความกว้าง ความสูง  ขนาด 100%
+    - ใส่ขนาดความกว้าง ความสูง  ขนาด 100
+
+5).ตกแต่งหน้าจอ ZipCodeScreen 
+    - เพิ่ม paddingRight และ paddingLeft กำหนดระยะห่างจากขอบหน้าจอซ้ายและขวา
+    - เพิ่ม paddingTop และ paddingBottom กำหนดระยะห่างบนและล่าง
+

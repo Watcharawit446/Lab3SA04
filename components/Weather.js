@@ -59,9 +59,11 @@ const styles = StyleSheet.create({
     
 },
     TextZipcode: {
- 
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent:'flex-start',
     backgroundColor: '#f69988',
-
+    alignSelf: 'stretch'
 } 
 
 });

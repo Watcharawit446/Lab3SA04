@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native-web";
 import React from "react";
-import { FlatList,View, Text, TouchableHighlight } from "react-native";
+import { FlatList,View, Text, TouchableHighlight, ImageBackground } from "react-native";
 import {useNavigation} from "@react-navigation/native";
 import { StatusBar } from "react-native";
 const availableZipItems = [
@@ -36,8 +36,12 @@ const availableZipItems = [
 
        const styles = StyleSheet.create({
         ZipItem: {
+            backgroundColor: '#00ACC1',
+            alignSelf: 'stretch',
             flex: 1,
             flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-around', 
         },
         zipPlace: {
             flex: 1,

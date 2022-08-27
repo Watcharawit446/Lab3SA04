@@ -1,3 +1,7 @@
 งานท้ายการทดลอง    6310110446  นายวัชรวิทย์ แซ่จุ้ง  Section 03
 
-1
+1.ตกแต่งหน้าจอ Weather โดยเพิ่ม
+    - ใน Weather.js ทำการเพิ่ม TextZipcode เพื่อใช้จัด layout โดยเพิ่มสีพื้นหลังจากคำสั่ง backgroundColor
+
+2.ตกแต่งหน้าจอ ZipCodeScreen โดยเพิ่ม
+    - ใน ZipCodeScreen.js เพิ่มสีพื้นหลังตรงส่วนของ Zipcode

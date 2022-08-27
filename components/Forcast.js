@@ -23,7 +23,7 @@ export default function Forecast(props) {
         alignSelf: 'stretch'
     },
     Text: {
-        fontWeight: "500",
+        fontWeight: "400",
         fontSize: 30,
         color: 'white'
     },
